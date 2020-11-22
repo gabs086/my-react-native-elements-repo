@@ -9,6 +9,7 @@ import UsingThemeProvider from './reactNativeElements/UsingThemeProvider';
 import OrderOfStyles from './reactNativeElements/OrderOfStyles';
 
 import AvatarComponents from './reactNativeElements/AvatarComponents';
+import BadgeComponents from './reactNativeElements/BadgesComponents';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <UsingComposition /> */}
       {/* <UsingThemeProvider /> */}
       {/* <OrderOfStyles /> */}
-      <AvatarComponents />
+      {/* <AvatarComponents /> */}
+      <BadgeComponents />
     </>
   );
 }
