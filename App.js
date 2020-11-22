@@ -10,6 +10,7 @@ import OrderOfStyles from './reactNativeElements/OrderOfStyles';
 
 import AvatarComponents from './reactNativeElements/AvatarComponents';
 import BadgeComponents from './reactNativeElements/BadgesComponents';
+import BottomSheetComponents from './reactNativeElements/BottomSheetComponents';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UsingThemeProvider /> */}
       {/* <OrderOfStyles /> */}
       {/* <AvatarComponents /> */}
-      <BadgeComponents />
+      {/* <BadgeComponents /> */}
+      <BottomSheetComponents />
     </>
   );
 }
