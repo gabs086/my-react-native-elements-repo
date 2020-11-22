@@ -43,6 +43,35 @@ export default function AvatarComponents() {
         <Accessory />
       </Avatar>
 
+      <Text>Avatar with Initials</Text>
+
+      <Avatar
+        size="small"
+        rounded
+        title="MT"
+        onPress={() => console.log('Works!')}
+        activeOpacity={0.7}
+      />
+      <Avatar
+        size="medium"
+        title="BP"
+        onPress={() => console.log('Works!')}
+        activeOpacity={0.7}
+      />
+      <Avatar
+        size="large"
+        title="LW"
+        onPress={() => console.log('Works!')}
+        activeOpacity={0.7}
+      />
+      <Avatar
+        size="xlarge"
+        rounded
+        title="CR"
+        onPress={() => console.log('Works!')}
+        activeOpacity={0.7}
+      />
+
       <Text>Avatar with icons</Text>
 
       <Avatar
